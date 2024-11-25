@@ -1,4 +1,4 @@
-import Navbar from "./components/navbar"
+import Navbar from "./components/Navbar"
 import Sidebar from "./components/Sidebar"
 import Dashboard from "./pages/Dashboard"
 
@@ -15,12 +15,9 @@ export default function App() {
 
     <Router>
       <Routes>
-        {/* Route to render the item list */}
+       
         <Route path="/" element={<Dashboard />} />
-        
-        {/* Route to render the item details for each item */}
-        <Route path="/invoice" element={<InvoiceReceive />} />
-
+        <Route path="/invoice" element={<InvoiceReceive />} /
         <Route path="/kpi" element={<KPI />} />
         <Route path="/queue" element={<Queue />} />
       </Routes>
