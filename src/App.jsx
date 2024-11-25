@@ -17,7 +17,7 @@ export default function App() {
       <Routes>
        
         <Route path="/" element={<Dashboard />} />
-        <Route path="/invoice" element={<InvoiceReceive />} /
+        <Route path="/invoice" element={<InvoiceReceive />} />
         <Route path="/kpi" element={<KPI />} />
         <Route path="/queue" element={<Queue />} />
       </Routes>
